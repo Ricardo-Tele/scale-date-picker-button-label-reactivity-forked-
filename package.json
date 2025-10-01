@@ -1,0 +1,17 @@
+{
+  "name": "nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@telekom/scale-components": "^3.0.0-beta.156",
+    "@telekom/scale-design-tokens": "^3.0.0-beta.148",
+    "nuxt": "^4.0.1"
+  }
+}
